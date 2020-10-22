@@ -1,12 +1,12 @@
 <template>
     <div class="blog-post">
         <div class="pc">
-                <h1>【書評】チョコレートの世界史</h1>
+                <h1>{{title}}</h1>
         </div>
         <div class="sp">
-            <h1>【書評】チョコレートの世界史</h1>
+            <h1>{{title}}</h1>
         </div>
-        <p class="date">2020/10/19</p>
+        <p class="date">{{date}}</p>
         <p>
             『チョコレートの世界史』という本を読みました．
             ブックオフで470円で買いました．
@@ -53,7 +53,13 @@
 
 <script>
 export default {
-    layout: "blog"
+    layout: "blog",
+    data: function () {
+        return {
+            title: "【書評】チョコレートの世界史",
+            date: "2020/10/19"
+        };
+    }
 }
 </script>
 

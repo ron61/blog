@@ -1,5 +1,26 @@
 <template>
   <div class="container">
+    <!-- <v-for item in items>
+      <Card
+      :title=item.title
+      :description=item.description
+      :date=item.date
+      :link=item.link
+      :imgSrc=item.imgSrc
+      :imgAlt=item.imgAlt
+      /> -->
+      <!-- or
+      <Card
+      :articleObj=item
+      /> -->
+    <Card
+      title="【書評】女性のいない民主主義"
+      description="『女性のいない民主主義』という本を読みました．Kindleで470円で書いました．けっこうおもしろかったです．"
+      date="2020/10/21"
+      link="/posts/democracy-without-women"
+      imgSrc="/img/lotus.jpg"
+      imgAlt="alternative message"
+    />
     <Card
       title="【書評】ハワイの歴史と文化"
       description="『ハワイの歴史と文化』という本を読んだ．2ヶ月ほど前，上野のブックオフで買ったものだ．370円だった．"

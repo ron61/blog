@@ -26,6 +26,32 @@
                 </div>
             </div>
         </nuxt-link>
+        <!-- <nuxt-link :to="arcicleObj.link">
+            <div class="pc">
+                <div class="pc-card">
+                    <div class="img-container">
+                        <img :src="arcicleObj.imgSrc" :alt="arcicleObj.imgAlt" width="95%" height="95%" />
+                    </div>
+                    <div class="text-container">
+                        <h2>{{arcicleObj.title}}</h2>
+                        <p class="date">{{arcicleObj.date}}</p>
+                        <p>{{arcicleObj.description}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sp">
+                <div class="card">
+                    <div class="img-container">
+                        <img :src="arcicleObj.imgSrc" :alt="arcicleObj.imgAlt" width="95%" />
+                    </div>
+                    <div class="text-container">
+                        <h2>{{arcicleObj.title}}</h2>
+                        <p class="arcicleObj.date">{{date}}</p>
+                        <p>{{arcicleObj.description}}</p>
+                    </div>
+                </div>
+            </div>
+        </nuxt-link> -->
     </div>
 </template>
 
@@ -38,6 +64,7 @@ export default {
         link: String,
         imgSrc: String,
         imgAlt: String
+        // articleObj: articleObj
     }
 }
 </script>

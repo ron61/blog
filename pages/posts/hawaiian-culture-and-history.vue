@@ -6,7 +6,7 @@
         <div class="sp">
             <h1>{{title}}</h1>
         </div>
-        <p class="date">2020/10/20</p>
+        <p class="date">{{date}}</p>
         <p>
             『ハワイの歴史と文化』という本を読んだ．
             2ヶ月ほど前，上野のブックオフで買ったものだ．
@@ -60,7 +60,8 @@ export default {
     layout: "blog",
     data: function () {
         return {
-            title: "【書評】ハワイの歴史と文化"
+            title: "【書評】ハワイの歴史と文化",
+            date: "2020/10/20"
         }
     }
 }
