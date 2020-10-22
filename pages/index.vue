@@ -4,7 +4,7 @@
       title="【書評】ハワイの歴史と文化"
       description="『ハワイの歴史と文化』という本を読んだ．2ヶ月ほど前，上野のブックオフで買ったものだ．370円だった．"
       date="2020/10/20"
-      link="/posts/hawaiian_culture_and_history"
+      link="/posts/hawaiian-culture-and-history"
       imgSrc="/img/sunset.jpg"
       imgAlt="alternative message"
     />
