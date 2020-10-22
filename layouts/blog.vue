@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="header">
-            <p>A Cup of Apple</p>
+            <p>A Cup of Orange</p>
             <ul>
                 <li>
                     <nuxt-link to="/">Top</nuxt-link>
