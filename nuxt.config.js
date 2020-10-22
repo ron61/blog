@@ -36,6 +36,7 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    '@nuxtjs/google-analytics'
   ],
 
   // ビルド先のディレクトリをdocsにする
@@ -57,5 +58,10 @@ export default {
 
     // フォールバックHTMLを404.htmlにする
     fallback: true
+  },
+
+  // google analytics
+  googleAnalytics: {
+    id: 'G-7XGX7NF2WQ'
   }
 }
